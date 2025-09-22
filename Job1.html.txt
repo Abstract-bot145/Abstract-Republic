@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anaheim Electronics</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003B5C; /* Klein Blue */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #FAF0E6; /* Light Yellow */
+        }
+
+        .left-column, .right-column {
+            width: 48%;
+        }
+
+        .latest-products, .latest-news {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .video-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #003B5C; /* Klein Blue */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Anaheim Electronics</h1>
+    <p>领先技术的引领者 | 创新的代言人</p>
+</header>
+
+<div class="main-content">
+    <div class="left-column">
+        <div class="latest-products">
+            <h2>最新产品</h2>
+            <img src="your_image_path.jpg" alt="Product Image" style="width: 100%; height: auto;">
+            <p>产品介绍：xxxx xxxx xxxx xxxx xxxx</p>
+        </div>
+
+        <div class="latest-news">
+            <h2>最新资讯</h2>
+            <p>Mobile Suit 模块</p>
+            <p>Mobile Armor 模块</p>
+            <p>更多信息请点击。</p>
+        </div>
+    </div>
+
+    <div class="right-column">
+        <div class="company-info">
+            <h2>企业相关</h2>
+            <p>关于我们</p>
+            <p>内页</p>
+        </div>
+
+        <div class="video-container">
+            <h3>产品视频</h3>
+            <video controls>
+                <source src="your_video_path.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>企业服务 | 产品系统 | 客户咨询 | 工具和资讯 | 企业合作申请</p>
+</footer>
+
+</body>
+</html>
