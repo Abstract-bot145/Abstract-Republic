@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background: linear-gradient(135deg, #f6ede3, #fdf7f1);
+            color: #3b3025;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .page {
+            display: inline-block;
+            background-color: #FFF6D9;
+            box-shadow: 0 0 30px rgba(80, 58, 35, 0.25);
+            text-align: left;
+            max-width: 720px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1, h2, h3, p {
+            color: #2f4f4f;
+        }
+
+        .center {
+            text-align: center !important; /* 使用!important提高优先级 */
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .notice {
+            font-size: 90%;
+            line-height: 1.6;
+        }
+
+        .section-title {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            background-color: #e0f2f7;
+            font-size: 90%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #cae9f5;
+            font-weight: bold;
+            text-align: center; /* 表头居中 */
+            line-height: 2.2;
+            padding: 8px;
+        }
+
+        td {
+            line-height: 2.0;
+            padding: 8px;
+            text-align: center; /* 表格内容居中 */
+        }
+
+        table tr:hover td {
+            background-color: #fff9c4;
+        }
+
+        div table a {
+            font-weight: bold;
+            font-size: 110%;
+            color: #8b3b30;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f0f8ff;
+        }
+
+        p#intro {
+            font-size: 120%;
+            font-weight: bold;
+            color: #00bfff;
+            text-align: center; /* 确保居中 */
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #8b3b30, transparent);
+            margin: 10px 0;
+        }
+
+        .intro-text {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+
+        a.red {
+            color: #8b3b30;
+            font-weight: bold;
+        }
+
+        a.blue {
+            color: #00bfff;
+            font-weight: bold;
+        }
+    </style>
+    <title>城市诗歌朗诵夜 · Poetry Reading Night</title>
+</head>
+<body>
+
+<div class="page">
+
+    <!-- 顶部标题区 -->
+    <h1 class="center">城市诗歌朗诵夜 · Poetry Reading Night</h1>
+
+    <div class="divider"></div><br>
+
+    <!-- 活动介绍区 -->
+    <div>
+
+        <h2 class="center">本周主题：夜色中的阅读与分享</h2>
+
+        <p class="intro-text center">
+            在日复一日的喧嚣与匆忙中，我们总需要一个时刻，让心灵得以栖息，让情感找到共鸣。
+        </p>
+
+        <p class="intro-text center">
+            城市诗歌朗诵夜，正是为所有心怀诗意的灵魂准备的一方净土。
+        </p>
+
+        <p class="intro-text center">
+            无论您是笔耕不辍的创作者，还是被某一诗句触动心弦的读者，这里都欢迎您。
+        </p>
+
+        <p class="intro-text center">
+            让我们在这场声音的盛宴中，以诗会友，共同领略'此情可待成追忆'的珍贵一刻
+        </p>
+
+        <!-- 这个 p 使用 id="intro"，会被 p#intro 高亮处理 -->
+        <p id="intro">
+            本次交流席位有限，报名成功后以短信确认为准，请务必留下可联系的手机号。
+        </p>
+    </div>
+
+    <br><div class="divider"></div><br>
+
+    <!-- 活动报名情况表格区 -->
+    <div>
+        <h3 class="section-title">活动报名名单</h3>
+
+        <table>
+            <tr>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>联系方式</th>
+                <th>报名状态</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td><a href="https://example.com/person1">张三</a></td>
+                <td>138****0001</td>
+                <td>已确认席位</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td><a href="https://example.com/person2">李四</a></td>
+                <td>139****0002</td>
+                <td>待确认</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>王五</td>
+                <td>137****0003</td>
+                <td>候补名单</td>
+            </tr>
+        </table>
+    </div>
+
+    <br><div class="divider"></div><br>
+
+    <!-- 页面链接区 -->
+    <div class="center">
+        <p>
+            <a class="red" href="https://example.com/photos">查看往期活动照片</a><br>
+            <a class="blue" href="https://example.com/online">在线咨询活动详情</a>
+        </p>
+    </div>
+
+    <br><div class="divider"></div><br>
+
+    <!-- 底部公告区 -->
+    <div class="notice center">
+        城市书店地址：幸福路 88 号，地铁二号线"图书城站"A 口出后步行三分钟。<br>
+        营业时间：工作日 10:00 - 21:00，周末与节假日 9:30 - 22:00。<br>
+        温馨提醒：夜间活动建议提早到达现场，如需签名书请在前台登记。
+    </div>
+
+    <br>
+
+</div>
+
+</body>
+</html>
